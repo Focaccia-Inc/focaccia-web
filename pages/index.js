@@ -36,11 +36,9 @@ export default function Home() {
         className="h-screen bg-cover bg-center flex justify-center items-center flex-col"
         style={{ backgroundImage: "url('eye_catch_bg.jpg')" }}
       >
-        <div className=" pb-32">
+        <div className=" pb-32" style={{ maxWidth: "70%" }}>
           <h1 className="text-center font-bold">
-            <span className="text-2xl text-gray-400">株式会社</span>
-            <br />
-            <span className="text-4xl">フォカッチャ</span>
+            <img src="focaccia_logo.svg" style={{ width: "400px" }} />
           </h1>
         </div>
       </section>
