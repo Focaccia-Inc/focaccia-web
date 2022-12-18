@@ -52,6 +52,25 @@ export default function Home() {
           </div>
         </section>
         <section className="px-8 py-16 text-center space-y-6 bg-gray-50">
+          <h2 className="font-bold text-xl">代表</h2>
+          <div className="text-gray-500">
+            <div className="text-xl">渡邊 陽平</div>
+            <div className="mt-4">
+              2015年、TuneCore
+              Japan（Wano株式会社）に入社。Webエンジニアとして開発やエンジニアマネジメントを経験。
+              <br />
+              2020年、フリーランスのWebエンジニアとして独立。複数の音楽系・エンタメ系プロダクトの開発・運用に携わる。
+              <br />
+              2022年、株式会社フォカッチャを設立。
+              <br />
+              <br />
+              専門領域はWebフロントエンドで、TypeScriptやNext.jsをメインに開発しています。
+              <br />
+              また、NestJSやMySQL、Redisなどを用いたバックエンド側の実装や、AWSやVercel等を用いたインフラ構築も可能です。
+            </div>
+          </div>
+        </section>
+        <section className="px-8 py-16 text-center space-y-6 ">
           <h2 className="font-bold text-xl">会社概要</h2>
           <div className="space-y-6 ">
             <div>
@@ -81,6 +100,17 @@ export default function Home() {
             <div>
               <h3 className="font-bold">資本金</h3>
               <p className="text-gray-500">1,500,000 円</p>
+            </div>
+          </div>
+        </section>
+        <section className="px-8 py-16 text-center space-y-6 bg-gray-50">
+          <h2 className="font-bold text-xl">お問い合わせ</h2>
+          <div className="text-gray-500">
+            <div className="mt-4">
+              <a href="mailto:contact@focaccia.co.jp" className="underline">
+                メール
+              </a>{" "}
+              にてお問い合わせください。
             </div>
           </div>
         </section>
